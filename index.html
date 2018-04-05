@@ -1,6 +1,7 @@
 <html>
  <head>
    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+ <script src="https://rawgit.com/feiss/aframe-environment-component/master/dist/aframe-environment-component.min.js"></script>
  </head>
  <body>
    <a-scene>
@@ -12,6 +13,9 @@
      <a-entity camera="active:true" wasd-controls="" position="-10.8 3.85 -15.521" rotation="-8.448451336700723 23.14749492328505 0" look-controls="" aframe-injected="" data-aframe-inspector-original-camera=""></a-entity>
       <a-sound src="https://ucarecdn.com/3764ea49-34de-40f3-934f-a55842ba3bcd/" autoplay="true"
     position="-10.8 3.85 -15.521"></a-sound>
+     <!-- Out of the box environment! -->
+  <a-entity environment="preset: volcano; fog: .95; groundColor: #445; grid: cross"></a-entity>
+</a-scene>
    </a-scene>
  </body>
 </html>
